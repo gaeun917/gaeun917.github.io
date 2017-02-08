@@ -5335,6 +5335,7 @@ a.thumbnail.active {
   color: #468847;
   background-color: #dff0d8;
   border-color: #d6e9c6;
+  padding:0px;
 }
 
 .alert-success hr {
