@@ -44,7 +44,7 @@
     margin-top: 0px;
 }
 .space{
-    height: 130px;
+    height: 80px;
     display: block;
 }
 .navigation-example .img-src{
@@ -395,7 +395,35 @@
 #buttons .btn, #tooltips .btn{
     margin-bottom: 15px;
 }
-.img-dog{
+.img-dev{
     display: inline-block;
-    margin-bottom: 25px;
+    margin-top: 100px;
+    margin-right: 20px;
+    width: 480px;
+    height: 400px;
+}
+
+.img-Aivo{
+    display: inline-block;
+    margin-top: 120px;
+    margin-right: 20px;
+    width: 600px;
+    height: 350px;
+}
+.img-babysitter{
+    display: inline-block;
+    margin-top: 60px;
+    margin-right: 20px;
+    width: 250px;
+    height: 450px;
+}
+#babysitter_main, #babysitter_container{
+    background-color:mintcream;
+}
+#face_main, #face_container{
+    background-color:#d9edf7;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
