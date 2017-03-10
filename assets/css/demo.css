@@ -422,6 +422,7 @@
 }
 #face_main, #face_container{
     background-color:#d9edf7;
+    margin: auto;
 
 }
 body{
