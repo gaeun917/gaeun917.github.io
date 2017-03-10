@@ -420,12 +420,17 @@
 #babysitter_main, #babysitter_container{
     background-color:mintcream;
 }
+#face_main, #face_container{
+    background-color:#d9edf7;
+    padding: 30px;
+
+}
 
 @media (max-width: 768px){
-    #face_main, #face_container{
+    #face_main{
+       margin:auto;
         background-color:#d9edf7;
-        width: 600px;
-        padding: 10px;
+        padding: 30px;
     }
 }
 body{
