@@ -501,7 +501,6 @@
 
 @media (max-width: 768px) {
     #face_main, #face_container, #fakebook_main, #fakebook_container, #babysitter_main, #babysitter_container, #study_cafe_main, #study_cafe_container, #aivo_main, #aivo_container {
-        margin: auto;
     }
 }
 
