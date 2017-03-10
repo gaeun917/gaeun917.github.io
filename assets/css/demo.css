@@ -427,10 +427,15 @@
 }
 
 @media (max-width: 768px){
-    #face_main{
+    #babysitter_main{
+        margin:auto;
+        background-color:#d9edf7;
+    }
+}
+@media (max-width: 768px){
+    #face_main, #fakebook_main, #babysitter_main, #study_cafe_main, #aivo_main{
        margin:auto;
         background-color:#d9edf7;
-        padding: 30px;
     }
 }
 body{
