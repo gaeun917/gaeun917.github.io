@@ -434,9 +434,7 @@
 }
 @media (max-width: 768px){
     #face_main, #fakebook_main, #babysitter_main, #study_cafe_main, #aivo_main{
-       margin-top: 30px;
-        margin-bottom:30px;
-
+        margin:auto;
     }
 }
 body{
