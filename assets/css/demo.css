@@ -1,7 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 .tim-container {
-    background: #ffffff;
-
+    padding-top: 170px;
+    padding-bottom: 170px;
 }
 
 .tim-row {
@@ -385,13 +388,14 @@
 }
 
 .logo-container {
-    margin-top: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 
 .logo-container .logo {
     overflow: hidden;
     border-radius: 50%;
-    border: 2px solid #FFFFFF;
+    /*border: 4px solid #FFFFFF;*/
     height: 50px;
     width: 50px;
     float: left;
@@ -402,14 +406,16 @@
 }
 
 .logo-container .brand {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
     color: #FFFFFF;
     float: left;
     height: 50px;
     line-height: 20px;
     margin-left: 15px;
     margin-top: 15px;
-    width: 200px;
+    width: 280px;
 }
 
 .blurred-container .motto {
@@ -460,50 +466,144 @@
 
 .img-dev {
     display: inline-block;
-    margin-top: 100px;
-    margin-right: 20px;
-    width: 480px;
-    height: 400px;
-}
-
-.img-Aivo {
-    display: inline-block;
-    margin-top: 120px;
+    margin-top: 150px;
     margin-right: 20px;
     width: 600px;
     height: 350px;
 }
+.img-pepsi {
 
-.img-babysitter {
+}
+.img-Aivo {
     display: inline-block;
-    margin-top: 60px;
-    margin-right: 20px;
+    /*margin-top: 120px;*/
+    /*margin-right: 20px;*/
+    /*width: 600px;*/
+    /*height: 350px;*/
+}
+#img_main-study{
+    height: 400px;
+
+    /*border: 4px solid thistle;*/
+}
+.img-babysitter {
     width: 250px;
     height: 450px;
+    /*border: 4px solid darkseagreen;*/
 }
-
+.img-fake{
+    height: 400px;
+}
+#pepsi_main, #pepsi_container{
+    background-color: aliceblue;
+}
+#aivo_main,#aivo_container{
+    background-color: mistyrose;
+}
+#study_cafe_main, #study_cafe_container{
+    background-color: lavender;
+}
 #babysitter_main, #babysitter_container {
     background-color: mintcream;
 }
-
-#face_main, #face_container {
+#fakebook_main, #face_container{
     background-color: #d9edf7;
+}
+#face_main, #face_container {
+    background-color:snow;
     padding: 30px;
+}
+.main_title-pepsi{
+    font-weight: 300;
+}
 
+.main_title-aivo{
+   font-weight: 300;
+    color: #d9534f;
+}
+.main_title-study{
+    font-weight: 300;
+    color: rebeccapurple;
+}
+.main_title-baby{
+    font-weight: 300;
+    color: limegreen;
+}
+.main_title-face{
+    font-weight: 300;
+    color: #1D62F0;
+}
+.main_ul{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: larger;
+}
+.div_icon img{
+    width: 12%;
+}
+.info_title{
+    color: lightseagreen;
+    font-weight: 300;
+}
+.container.contact_info{
+    color: #ddd;
+}
+p{
+    color: dimgray;
+}
+ul li{
+    color: dimgray;
+}
+
+.div_icon{
+    padding-top: 20px;
+}
+@media (max-width: 900px) {
+    /*#img-babysitter1{*/
+        /*margin: auto;*/
+    /*}*/
+    /*#img-babysitter2 {*/
+        /*display: none;*/
+    /*}*/
 }
 
 @media (max-width: 768px) {
     #babysitter_main {
         margin: auto;
-        background-color: #d9edf7;
+    }
+
+    .img-babysitter#img-babysitter2 {
+        display: none;
+    }
+    .img-dev{
+        margin-top: 0px;
+    }
+    .tim-container{
+        padding-top: 300px !important;
+    }
+    #face_main,
+    #face_container,
+    #fakebook_main,
+    #fakebook_container,
+    #babysitter_main,
+    #babysitter_container,
+    #study_cafe_main,
+    #study_cafe_container,
+    #aivo_main,
+    #aivo_container,
+    #pepsi_main,
+    #pepsi_container
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #extras .space{
+        display: none;
     }
 }
 
-@media (max-width: 768px) {
-    #face_main, #face_container, #fakebook_main, #fakebook_container, #babysitter_main, #babysitter_container, #study_cafe_main, #study_cafe_container, #aivo_main, #aivo_container {
-    }
-}
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
+
+
+
+
