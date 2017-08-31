@@ -531,7 +531,7 @@ body {
 }
 .main_title-face{
     font-weight: 300;
-    color: #1D62F0;
+    color: #1D62F0;text-transform: uppercase;
 }
 .main_ul{
     font-family: Roboto;
