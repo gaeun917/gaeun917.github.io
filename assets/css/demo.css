@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: dimgray;
+
 }
 
 .tim-container {
@@ -474,17 +476,9 @@ body {
 .img-pepsi {
 
 }
-.img-Aivo {
-    display: inline-block;
-    /*margin-top: 120px;*/
-    /*margin-right: 20px;*/
-    /*width: 600px;*/
-    /*height: 350px;*/
-}
+
 #img_main-study{
     height: 400px;
-
-    /*border: 4px solid thistle;*/
 }
 .img-babysitter {
     width: 250px;
@@ -548,59 +542,61 @@ body {
 .container.contact_info{
     color: #ddd;
 }
-p{
-    color: dimgray;
-}
-ul li{
-    color: dimgray;
-}
+/*p{*/
+    /*color: dimgray;*/
+/*}*/
+/*ul li{*/
+    /*color: dimgray;*/
+/*}*/
 
 .div_icon{
     padding-top: 20px;
 }
-@media (max-width: 900px) {
-    /*#img-babysitter1{*/
-        /*margin: auto;*/
-    /*}*/
-    /*#img-babysitter2 {*/
-        /*display: none;*/
-    /*}*/
-}
-
-@media (max-width: 768px) {
-    #babysitter_main {
-        margin: auto;
-    }
-
+@media (max-width: 700px) {
     .img-babysitter#img-babysitter2 {
         display: none;
     }
     .img-dev{
-        margin-top: 0px;
+        margin-top: 0;
     }
-    .tim-container{
-        padding-top: 300px !important;
-    }
-    #face_main,
-    #face_container,
-    #fakebook_main,
-    #fakebook_container,
-    #babysitter_main,
-    #babysitter_container,
-    #study_cafe_main,
-    #study_cafe_container,
-    #aivo_main,
-    #aivo_container,
-    #pepsi_main,
-    #pepsi_container
-    {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    #extras .space{
-        display: none;
+    .container.tim-container{
+        padding-top: 0px !important;
     }
 }
+
+/*@media (min-width: 600px) and (max-width: 768px) {*/
+    /*#babysitter_main {*/
+        /*margin: auto;*/
+    /*}*/
+    /*.img-babysitter#img-babysitter2 {*/
+        /*display: none;*/
+    /*}*/
+    /*.img-dev{*/
+        /*margin-top: 0;*/
+    /*}*/
+    /*.container.tim-container{*/
+        /*padding-top: 0 !important;*/
+    /*}*/
+    /*#face_main,*/
+    /*#face_container,*/
+    /*#fakebook_main,*/
+    /*#fakebook_container,*/
+    /*#babysitter_main,*/
+    /*#babysitter_container,*/
+    /*#study_cafe_main,*/
+    /*#study_cafe_container,*/
+    /*#aivo_main,*/
+    /*#aivo_container,*/
+    /*#pepsi_main,*/
+    /*#pepsi_container*/
+    /*{*/
+        /*padding-top: 20px;*/
+        /*padding-bottom: 20px;*/
+    /*}*/
+    /*#extras .space{*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 
 
 
