@@ -473,10 +473,16 @@ body {
     width: 600px;
     height: 350px;
 }
+.img-be_memo {
+    width: 600px;
+    height: 450px;
+}
+.img-artha {
+
+}
 .img-pepsi {
 
 }
-
 #img_main-study{
     height: 400px;
 }
@@ -488,6 +494,20 @@ body {
 .img-fake{
     height: 400px;
 }
+#be_main_main, #be_container{
+    background-color: aliceblue;
+}
+
+#be_main, #be_container{
+    /*yellow*/
+    background-color: lightgoldenrodyellow;
+}
+
+#artha_main, #artha_container{
+    background-color: honeydew;
+}
+
+
 #pepsi_main, #pepsi_container{
     background-color: aliceblue;
 }
@@ -542,12 +562,6 @@ body {
 .container.contact_info{
     color: #ddd;
 }
-/*p{*/
-    /*color: dimgray;*/
-/*}*/
-/*ul li{*/
-    /*color: dimgray;*/
-/*}*/
 
 .div_icon{
     padding-top: 20px;
