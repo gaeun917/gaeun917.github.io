@@ -15,10 +15,12 @@
     <link href="assets/css/demo.css" rel="stylesheet"/>
 
     <!--     Font Awesome     -->
-    <link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
+    <!--<link href="bootstrap3/css/font-awesome.css" rel="stylesheet">-->
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
+<body>
+<div class="se-pre-con"></div>
 
 <div id="navbar-full">
     <div class="container">
@@ -28,7 +30,7 @@
                     <a href="#">
                         <div class="logo-container">
                             <div class="logo"><img src="assets/img/projects/badget/icon-block.png"></div>
-                            <div class="brand">FULL Stack Developer</div>
+                            <div class="brand">Full Stack Developer</div>
                         </div>
                     </a>
                 </div>
@@ -36,10 +38,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://www.linkedin.com/in/gaeun917/" target="_blank"><img
-                                src="assets/img/projects/badget/icon-linkedin.png" style="width: 45px"></a></li>
-                        <li><a href="mailto:stila917@gmail.com"><img src="assets/img/projects/badget/icon-email.png"
-                                                                     style="width: 45px"></a></li>
+                        <li><a href="https://www.linkedin.com/in/gaeun917/" target="_blank">
+                            <img src="assets/img/projects/badget/icon-linkedin.png" style="width: 45px"></a></li>
+                        <li><a href="https://github.com/gaeun917">
+                            <img src="assets/img/projects/badget/icon-git.png" style="width: 45px"></a></li>
+                        <li><a href="mailto:stila917@gmail.com">
+                            <img src="assets/img/projects/badget/icon-email.png" style="width: 45px"></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -49,10 +53,10 @@
     <div class='blurred-container'>
         <div class="motto">
             <div class="space"></div>
-            <div>stella lee</div>
+            <div class="textcontainer">stella lee</div>
         </div>
-        <div class="img-src" style="background-image: url('assets/img/cover_4.jpg')"></div>
-        <div class='img-src blur' style="background-image: url('assets/img/cover_4_blur.jpg')"></div>
+        <div class="img-src" style="background-image: url('assets/img/cover_4.png')"></div>
+        <div class='img-src blur' style="background-image: url('assets/img/cover_4_blur.png')"></div>
     </div>
 </div><!--/navbar-full-->
 
@@ -61,85 +65,99 @@
 <div class="main" id="be_main">
     <div class="container tim-container" id="be_container">
         <div class="row">
-            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 js--fadeInLeft">
                 <div class="text-center">
                     <img src="assets/img/projects/be_memorable/Be_Memorable_main.png"
-                         alt="be_memorable mainimage"
+                         alt="be_memorable screen shot"
                          class="img-rounded img-responsive img-be_memo img-dev">
+                    <p>
+                        <a href="http://bmemoStage.us-west-2.elasticbeanstalk.com" target="_blank"
+                           class="btn btn-info btn-fill">Live Preview</a>
+                    </p>
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
-                <h2 class="text-center">
-                    <a class="main_title-pepsi">Be_memorable </a><br>
-                    <small class="subtitle">Responsive / Interactive Web App</small>
-                    <div class="div_icon">
-                        <img src="assets/img/projects/badget/icon-js.png">
-                        <img src="assets/img/projects/badget/icon-html.png">
-                        <img src="assets/img/projects/badget/icon-sass.png">
-                        <img src="assets/img/projects/badget/icon-aws.png">
-                        <img src="assets/img/projects/badget/icon-git.png">
-                        <img src="assets/img/projects/badget/icon-grunt.png" style="background-color:transparent ">
-                    </div>
-                </h2>
+                <h2 class="text-center main_title-be">Be memorable</h2>
+                <h5 class="subtitle">Responsive / Interactive Web App</h5>
+                <div class="div_icon">
+                    <img src="assets/img/projects/badget/icon-js.png"
+                         data-toggle="tooltip" data-placement="top" title="ES6">
+                    <img src="assets/img/projects/badget/icon-html.png"
+                         data-toggle="tooltip" data-placement="top" title="Html5">
+                    <img src="assets/img/projects/badget/icon-sass.png"
+                         data-toggle="tooltip" data-placement="top" title="Sass">
+                    <img src="assets/img/projects/badget/icon-aws.png"
+                         data-toggle="tooltip" data-placement="top" title="AWS">
+                    <img src="assets/img/projects/badget/icon-git.png"
+                         data-toggle="tooltip" data-placement="top" title="Git">
+                    <!--<img src="assets/img/projects/badget/icon-grunt.png"-->
+                    <!--data-toggle="tooltip" data-placement="top" title="Grunt">-->
+                </div>
+
                 <hr>
                 <p><i>Be_memorable responsive web pages, CSS Animation, Scroll_magic, mega menu and slick </i></p>
-                <p><b>Web</b><br><a href="bmemoStage.us-west-2.elasticbeanstalk.com ">bmemoStage.us-west-2.elasticbeanstalk.com </a>
-                </p>
-
-                <p><b>Environment</b><br> HTML, Javascript, Handlebar, JSON, SASS, CoffeeScript, Grunt, Git, AWS, Node.js, </p>
+                <p><b>Environment</b><br> HTML, Javascript, Handlebar, JSON, SASS, CoffeeScript, Grunt, Git, AWS,
+                    Node.js, </p>
                 <p><b>Responsibilities</b>
                 <ul class="main_ul">
-                    <li>Constructed mobile-first responsive templates, an interactive map and a global nagivation
-                        with Handlebar, JSON, SASS, CoffeeScript, Grunt, Git
+                    <li>Constructed pixel perfect responsive/ interactive with SVG and seamless user experience with
                     </li>
-                    <li>Conducted code modularisation for CMS, Signify following BEM methodology</li>
+                    <li>Delivered full development lifecycle following best practices, SEO principles, and
+                        optimisation
+                    </li>
+                    <li>Managed browsers/devices compatibility, optimization, testing, and deployed the app to AWS</li>
                 </ul>
-                </p>
             </div>
         </div>
     </div>
 </div><!-- end container -->
 
 <!--artha -->
-<div class="main" id="artha_main">
+<div class="main " id="artha_main">
     <div class="container tim-container" id="artha_container">
         <div class="row">
-            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 js--fadeInLeft">
                 <div class="text-center">
-
                     <img src="assets/img/projects/artha/Artha.png"
-                         alt="Rounded Image"
+                         alt="Artha screenshot"
                          class="img-rounded img-responsive img-artha img-dev">
+                    <p>
+                        <a href="http://artha.us-west-2.elasticbeanstalk.com" target="_blank"
+                           class="btn btn-info btn-fill">Live Preview</a>
+                    </p>
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
-                <h2 class="text-center">
-                    <a class="main_title-pepsi">Artha Investment Bank</a><br>
-                    <small class="subtitle"> Responsive / Interactive Web App</small>
-                    <div class="div_icon">
-                        <img src="assets/img/projects/badget/icon-js.png">
-                        <img src="assets/img/projects/badget/icon-html.png">
-                        <img src="assets/img/projects/badget/icon-sass.png">
-                        <img src="assets/img/projects/badget/icon-aws.png">
-                        <img src="assets/img/projects/badget/icon-git.png">
-                        <img src="assets/img/projects/badget/icon-grunt.png" style="background-color:transparent ">
-                    </div>
-                </h2>
+                <h2 class="text-center main_title-artha">Artha Investment</h2>
+                <h5 class="subtitle"> Responsive / Interactive Web App</h5>
+                <div class="div_icon">
+                    <img src="assets/img/projects/badget/icon-js.png"
+                         data-toggle="tooltip" data-placement="top" title="ES6">
+                    <img src="assets/img/projects/badget/icon-html.png"
+                         data-toggle="tooltip" data-placement="top" title="Html5">
+                    <img src="assets/img/projects/badget/icon-sass.png"
+                         data-toggle="tooltip" data-placement="top" title="Sass">
+                    <img src="assets/img/projects/badget/icon-aws.png"
+                         data-toggle="tooltip" data-placement="top" title="AWS">
+                    <img src="assets/img/projects/badget/icon-git.png"
+                         data-toggle="tooltip" data-placement="top" title="Git">
+                    <!--<img src="assets/img/projects/badget/icon-grunt.png"-->
+                         <!--data-toggle="tooltip" data-placement="top" title="Grunt">-->
+                </div>
                 <hr>
-                <p><i>PepsiCo's responsive web pages, an interactive map, and a navigation using CSS Animation and
-                    Greensocks</i></p>
-                <p><b>Web</b><br><a href="artha.us-west-2.elasticbeanstalk.com ">artha.us-west-2.elasticbeanstalk.com </a>
-                </p>
-
+                <p><i>Aretha Investment Bank’s mobile/web with lazy loading, carousel+tab, mega dropdown using custom
+                    CSS Animation</i></p>
                 <p><b>Environment</b><br> Handlebar, JSON, SASS, CoffeeScript, Grunt, Git</p>
                 <p><b>Responsibilities</b>
                 <ul class="main_ul">
-                    <li>Constructed mobile-first responsive templates, an interactive map and a global nagivation
-                        with Handlebar, JSON, SASS, CoffeeScript, Grunt, Git
+                    <li>Constructed interactive app and seamless user experience with input validation and Event
+                        Listener in JS
                     </li>
-                    <li>Conducted code modularisation for CMS, Signify following BEM methodology</li>
+                    <li>Evaluated requirement and technologies and scheduled the product deployment</li>
+                    <li>Advised on front end best practices and ideal approach and technique to use, and provided
+                        support for other websites managed by the agency
+                    </li>
                 </ul>
-                </p>
             </div>
         </div>
     </div>
@@ -149,34 +167,40 @@
 <div class="main" id="pepsi_main">
     <div class="container tim-container" id="pepsi_container">
         <div class="row">
-            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 js--fadeInLeft">
                 <div class="text-center">
-
                     <img src="assets/img/pepsi_navigation_main.png"
-                         alt="Rounded Image"
+                         alt="Pepsi Screenshot"
                          class="img-rounded img-responsive img-pepsi img-dev">
+                    <p><br/>
+                        <a href="http://www.pepsico.com/sustainability/A-Z-Topics" target="_blank"
+                           class="btn btn-info btn-fill">Sustainability Preview</a>
+                        <a href="http://nav1-env.zvrkgmtfhr.us-west-2.elasticbeanstalk.com/" target="_blank"
+                           class="btn btn-info btn-fill">Navigation Preview</a>
+                    </p>
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
-                <h2 class="text-center">
-                    <a class="main_title-pepsi">PepsiCo</a><br>
-                    <small class="subtitle"> Responsive / Interactive Web App</small>
-                    <div class="div_icon">
-                        <img src="assets/img/projects/badget/icon-js.png">
-                        <img src="assets/img/projects/badget/icon-html.png">
-                        <img src="assets/img/projects/badget/icon-sass.png">
-                        <img src="assets/img/projects/badget/icon-aws.png">
-                        <img src="assets/img/projects/badget/icon-git.png">
-                        <img src="assets/img/projects/badget/icon-grunt.png" style="background-color:transparent ">
-                    </div>
-                </h2>
+                <h2 class="text-center main_title-pepsi">PepsiCo</h2><br>
+                <h5 class="subtitle"> Responsive / Interactive Web App</h5>
+                <div class="div_icon">
+                    <img src="assets/img/projects/badget/icon-js.png"
+                         data-toggle="tooltip" data-placement="top" title="ES6">
+                    <img src="assets/img/projects/badget/icon-html.png"
+                         data-toggle="tooltip" data-placement="top" title="Html5">
+                    <img src="assets/img/projects/badget/icon-sass.png"
+                         data-toggle="tooltip" data-placement="top" title="Sass">
+                    <img src="assets/img/projects/badget/icon-aws.png"
+                         data-toggle="tooltip" data-placement="top" title="AWS">
+                    <img src="assets/img/projects/badget/icon-git.png"
+                         data-toggle="tooltip" data-placement="top" title="Git">
+                    <!--<img src="assets/img/projects/badget/icon-grunt.png"-->
+                         <!--data-toggle="tooltip" data-placement="top" title="Grunt">-->
+                </div>
+
                 <hr>
                 <p><i>PepsiCo's responsive web pages, an interactive map, and a navigation using CSS Animation and
                     Greensocks</i></p>
-                <p><b>Web</b><br><a href="http://www.pepsico.com/sustainability/A-Z-Topics">www.pepsico.com/sustainability</a>
-                    <br><a href="http://nav1-env.zvrkgmtfhr.us-west-2.elasticbeanstalk.com/">http://nav1-env.zvrkgmtfhr.us-west-2.elasticbeanstalk.com</a>
-                </p>
-
                 <p><b>Environment</b><br> Handlebar, JSON, SASS, CoffeeScript, Grunt, Git</p>
                 <p><b>Responsibilities</b>
                 <ul class="main_ul">
@@ -185,39 +209,43 @@
                     </li>
                     <li>Conducted code modularisation for CMS, Signify following BEM methodology</li>
                 </ul>
-                </p>
+
             </div>
         </div>
     </div>
 </div><!-- end container -->
 
 <div class="main" id="aivo_main">
-    <div class="container tim-container" id="aivo_container">
+    <div class="container tim-container " id="aivo_container">
         <div class="row">
-            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 js--fadeInLeft">
                 <div class="text-center">
-                    <img src="assets/img/projects/aivo_modal.png" alt="Rounded Image"
-                         class="img-rounded img-responsive img-dev img-Aivo">
+                    <img src="assets/img/projects/aivo_modal.png" alt="Aivo Screenshot"
+                         class="img-rounded img-responsive img-aivo">
+                    <p><br><a href="https://aivo.co.kr/" target="_blank" class="btn btn-info btn-fill">Live
+                        Preview</a></p>
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
-                <h2 class="text-center">
-                    <a class="main_title-aivo">AIVO</a><br>
-                    <small class="subtitle"> Node.js / Angular.js Web App</small>
-                    <div class="div_icon">
-                        <img src="assets/img/projects/badget/icon-angular.png">
-                        <img src="assets/img/projects/badget/icon-node.png">
-                        <img src="assets/img/projects/badget/icon-post.png">
-                        <img src="assets/img/projects/badget/icon-js.png">
-                        <img src="assets/img/projects/badget/icon-html.png">
-                        <img src="assets/img/projects/badget/icon-sass.png">
-                    </div>
-
-                </h2>
+                <h2 class="text-center main_title-aivo">AIVO</h2><br>
+                <h5 class="subtitle"> Node.js / Angular.js Web App</h5>
+                <div class="div_icon">
+                    <img src="assets/img/projects/badget/icon-angular.png"
+                         data-toggle="tooltip" data-placement="top" title="Angular1/2">
+                    <img src="assets/img/projects/badget/icon-node.png"
+                         data-toggle="tooltip" data-placement="top" title="Node.js">
+                    <img src="assets/img/projects/badget/icon-post.png"
+                         data-toggle="tooltip" data-placement="top" title="PostgreSQL">
+                    <img src="assets/img/projects/badget/icon-js.png"
+                         data-toggle="tooltip" data-placement="top" title="ES5">
+                    <img src="assets/img/projects/badget/icon-html.png"
+                         data-toggle="tooltip" data-placement="top" title="Html5">
+                    <img src="assets/img/projects/badget/icon-sass.png"
+                         data-toggle="tooltip" data-placement="top" title="Sass">
+                </div>
                 <hr>
                 <p><i>Interior design and furniture showcase website where designers present their concepts and
                     find resource</i></p>
-                <p><b>Web</b><br><a href="https://aivo.co.kr/">www.aivo.co.kr</a></p>
                 <p><b>Environment</b><br> Node.js, Postgre SQL, Angular.js, CSS/Sass, Mustache, Bower, npm
                     Git, Gulp</p>
                 <p><b>Responsibilities</b>
@@ -232,7 +260,7 @@
                         search bar using Bootstrap and custom CSS/SASS
                     </li>
                 </ul>
-                </p>
+
             </div>
         </div>
     </div>
@@ -242,26 +270,26 @@
 <div class="main" id="study_cafe_main">
     <div class="container tim-container" id="study_cafe_container">
         <div class="row">
-            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 js--fadeInLeft">
                 <div class="text-center">
                     <img class="img-rounded img-responsive img-dev"
                          id="img_main-study"
                          src="assets/img/projects/main1.png"
-                         alt="Rounded Image">
+                         alt="study cafe screenshot">
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
-                <h2 class="text-center main_title-study">Study Cafe<br>
-                    <small class="subtitle"> Java / Spring Web App</small>
-                    <div class="div_icon">
-                        <img src="assets/img/projects/badget/icon-java.png">
-                        <img src="assets/img/projects/badget/icon-spring.png">
-                        <img src="assets/img/projects/badget/icon-mybatis.png">
-                        <img src="assets/img/projects/badget/icon-oracle.png">
-                        <img src="assets/img/projects/badget/icon-js.png">
-                        <img src="assets/img/projects/badget/icon-html.png">
-                    </div>
-                </h2>
+                <h2 class="text-center main_title-study">Study Cafe</h2>
+                <h5 class="subtitle"> Java / Spring Web App</h5>
+                <div class="div_icon">
+                    <img src="assets/img/projects/badget/icon-java.png">
+                    <img src="assets/img/projects/badget/icon-spring.png">
+                    <img src="assets/img/projects/badget/icon-mybatis.png">
+                    <img src="assets/img/projects/badget/icon-oracle.png">
+                    <img src="assets/img/projects/badget/icon-js.png">
+                    <img src="assets/img/projects/badget/icon-html.png">
+                </div>
+
                 <hr>
                 <p><i>Searching offline group meetings that allow members to find and join groups unifiedby a
                     common interest.</i></p>
@@ -288,19 +316,19 @@
 
 
 <div class="main" id="babysitter_main">
-    <div class="container tim-container" id="babysitter_container">
+    <div class="container tim-container " id="babysitter_container">
         <div class="row">
-            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 js--fadeInLeft">
                 <div class="text-center">
-                    <img id="img-babysitter1" src="assets/img/projects/add_child.png" alt="Rounded Image"
+                    <img id="img-babysitter1" src="assets/img/projects/add_child.png" alt="babysitter1 Screenshot"
                          class="img-rounded img-responsive img-babysitter img-dev">
-                    <img id="img-babysitter2" src="assets/img/projects/add_interest.png" alt="Rounded Image"
+                    <img id="img-babysitter2" src="assets/img/projects/add_interest.png" alt="babysitter2 Screenshot"
                          class="img-rounded img-responsive img-babysitter img-dev">
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
                 <h2 class="text-center main_title-baby">BabySitter<br>
-                    <small class="subtitle"> Android app</small>
+                    <h5 class="subtitle"> Android app</h5>
                     <div class="div_icon">
                         <img src="assets/img/projects/badget/icon-android.png">
                         <img src="assets/img/projects/badget/icon-java.png">
@@ -333,17 +361,17 @@
 
 
 <div class="main" id="fakebook_main">
-    <div class="container tim-container" id="fakebook_container">
+    <div class="container tim-container " id="fakebook_container">
         <div class="row">
-            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+            <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1 js--fadeInLeft">
                 <div class="text-center">
-                    <img src="assets/img/projects/fakebook_newsFeeds.png" alt="Rounded Image"
+                    <img src="assets/img/projects/fakebook_newsFeeds.png" alt="Fakebook Screenshot"
                          class="img-rounded img-responsive img-dev img-fake">
                 </div>
             </div>
             <div class="col-md-5 col-sm-12">
                 <h2 class="text-center main_title-face">FakeBook<br>
-                    <small class="subtitle"> Java/ JSP Web App</small>
+                    <h5 class="subtitle"> Java/ JSP Web App</h5>
                     <div class="div_icon">
                         <img src="assets/img/projects/badget/icon-java.png">
                         <img src="assets/img/projects/badget/icon-oracle.png">
@@ -375,60 +403,59 @@
 </div>
 
 
-<!--<div class="main" id="face_main">-->
-    <!--<div class="container tim-container" id="face_container">-->
-        <!--<div class="row">-->
-            <!--<div><h2 class="info_title">Education</h2>-->
-                <!--<hr>-->
-                <!--<p>Java-based Oracle Database Scientist course | IT WILL Data Processing Academy | Seoul,-->
-                    <!--Korea (Feb - Aug 2016) </p>-->
-                <!--<p>M.A. Art Theory | Hongik University (March 2012 – Feb 2015) | Seoul, Korea (March 2012 – Feb2015)</p>-->
-                <!--<p>B.A. Art History/Art Management | University of San Francisco | San Francisco, CA, USA (Sep2007 –Jun-->
-                    <!--2010)</p>-->
-                <!--<p>Duluth Central High school | San Francisco, CA, USA (Jan 2005 - May 2007)</p>-->
-            <!--</div>-->
+<div class="main" id="face_main">
+    <div class="container tim-container" id="face_container">
+        <div class="row">
+            <div><h2 class="info_title">Education</h2>
+                <hr>
+                <p>Java-based Oracle Database Scientist course | IT WILL Data Processing Academy | Seoul,
+                    Korea (Feb - Aug 2016) </p>
+                <p>M.A. Art Theory | Hongik University (March 2012 – Feb 2015) | Seoul, Korea (March 2012 – Feb2015)</p>
+                <p>B.A. Art History/Art Management | University of San Francisco | San Francisco, CA, USA (Sep2007 –Jun
+                    2010)</p>
+                <p>Duluth Central High school | San Francisco, CA, USA (Jan 2005 - May 2007)</p>
+            </div>
 
-            <!--<div>-->
-                <!--<h2 class="info_title">Employment History</h2>-->
-                <!--<hr>-->
-                <!--<div>-->
-                    <!--<h6>Front-end developer, Colorido Studio, London, UK (May 2017 – August 2017)</h6>-->
-                    <!--<ul>-->
-                        <!--<li> Constructed responsive web pages, an interactive map and a global navigation on Pepsico.com-->
-                        <!--</li>-->
-                        <!--<li> Managed browsers/devices compatibility, optimisation, testing, and deployed the app to-->
-                            <!--AWS-->
-                        <!--</li>-->
-                    <!--</ul>-->
+            <h2 class="info_title">Employment History</h2>
+            <hr>
+            <div>
+                <h6>Front-end developer, Colorido Studio, London, UK (May 2017 – Nov 2017)</h6>
+                <ul>
+                    <li> Constructed responsive web pages, an interactive map and a global navigation on Pepsico.com
+                    </li>
+                    <li> Managed browsers/devices compatibility, optimisation, testing, and deployed the app to
+                        AWS
+                    </li>
+                </ul>
 
-                    <!--<h6>Full-stack developer, AIVO, Seoul, Korea (September 2016 – March 2017)</h6>-->
-                    <!--<ul>-->
-                        <!--<li> Worked closely with designers and a product manager to maintain DB and evolve UI/UX of-->
-                            <!--the website-->
-                        <!--</li>-->
-                        <!--<li> Followed BEM methodology for HTML/CSS and Kanban of Agile using AWS, Trello, Github</li>-->
-                    <!--</ul>-->
+                <h6>Full-stack developer, AIVO, Seoul, Korea (September 2016 – March 2017)</h6>
+                <ul>
+                    <li> Worked closely with designers and a product manager to maintain DB and evolve UI/UX of
+                        the website
+                    </li>
+                    <li> Followed BEM methodology for HTML/CSS and Kanban of Agile using AWS, Trello, Github</li>
+                </ul>
 
-                    <!--<h6>DB Consultant, Bum Soft, Seoul, Korea (February 2011 – July 2012)</h6>-->
-                    <!--<ul>-->
-                        <!--<li>Conducted research, analysis and reported museum database management systems and-->
-                            <!--targeting DB strategies for client-->
-                        <!--</li>-->
-                    <!--</ul>-->
+                <h6>DB Consultant, Bum Soft, Seoul, Korea (February 2011 – July 2012)</h6>
+                <ul>
+                    <li>Conducted research, analysis and reported museum database management systems and
+                        targeting DB strategies for client
+                    </li>
+                </ul>
 
-                    <!--<h6>Archive Curator, Lost Art Salon, San Francisco, USA (August 2009 – December 2009)</h6>-->
-                    <!--<ul>-->
-                        <!--<li> Catalogued and updated the gallery’s on/offline archive using the database software,EmbARK-->
-                        <!--</li>-->
-                        <!--<li> Engaged in research and analysis for the gallery's collection and created-->
-                            <!--summary reports on collection-->
-                        <!--</li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>&lt;!&ndash; end container &ndash;&gt;-->
-<!--</div>-->
+                <h6>Archive Curator, Lost Art Salon, San Francisco, USA (August 2009 – December 2009)</h6>
+                <ul>
+                    <li> Catalogued and updated the gallery’s on/offline archive using the database software,EmbARK
+                    </li>
+                    <li> Engaged in research and analysis for the gallery's collection and created
+                        summary reports on collection
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div><!-- end container -->
+</div>
 
 <div class="parallax-pro">
     <div class="img-src"
@@ -469,8 +496,6 @@
 <!--</div>-->
 
 
-</body>
-
 <script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
 <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
 <script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
@@ -478,5 +503,7 @@
 <script src="assets/js/gsdk-radio.js"></script>
 <script src="assets/js/gsdk-bootstrapswitch.js"></script>
 <script src="assets/js/get-shit-done.js"></script>
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script src="assets/js/custom.js"></script>
+</body>
 </html>
