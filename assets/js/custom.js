@@ -37,7 +37,7 @@ $('[data-toggle="tooltip"]').tooltip();
 // };
 // initparticles();
 
-//reveal
+//3. reveal
 window.sr = ScrollReveal();
 
 if ($(window).width() < 768) {

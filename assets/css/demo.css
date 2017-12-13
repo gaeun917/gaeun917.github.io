@@ -1,7 +1,29 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: dimgray;
+    outline: hidden;
+}
+/*font awesom*/
+.fa {
+    margin: 0 10px;
+}
+.navbar .navbar-nav > li > a [class^="fa"] {
+    font-size: 2em;
+}
+.fa-code-fork, .fa-cubes, .fa-flask{
+    margin: 0 20px 0 0;
+}
 
+.fa-university, fa-id-badge{
+    margin-right: 40px;
+}
+span.padding{
+    padding-left: 42px;
+    display: block;
+}
+span.padding_bottom{
+    margin-bottom: 5px;
+    display: block;
 }
 
 .tim-container {
@@ -487,10 +509,6 @@ body {
     max-height: 450px;
 }
 
-.img-pepsi, .img-aivo {
-    max-width: 525px;
-}
-
 .img-babysitter {
     width: 200px;
     margin-right: 1em;
@@ -565,45 +583,66 @@ h5 {
 .main_title-baby,
 .main_title-face{
     width: fit-content;
-    margin: 0 auto .5em;
+    margin: 0 auto;
     padding: .3em 0;
     font-size: 5.5em;
 }
+h5{
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.7em;
+    margin-bottom: 60px;
 
-.main_title-artha {
+}
+#artha_main  .main_title-artha {
     color: firebrick;
     border-bottom: 5px solid firebrick;
     /*border-top: 5px solid firebrick;*/
+}
+#artha_main h5{
+    color: firebrick;
 }
 
 .main_title-pepsi, .main_title-be {
     color: dodgerblue;
     border-bottom: 5px solid dodgerblue;
-    /*border-top: 5px solid dodgerblue;*/
+}
+#pepsi_main h5, #be_main h5{
+    color: dodgerblue;
 }
 
-.main_title-aivo {
+#aivo_main .main_title-aivo {
     color: #d9534f;
     border-bottom: 5px solid #d9534f;
-    /*border-top: 5px solid #d9534f;*/
 }
-
-.main_title-study {
+#aivo_main h5{
+    color: #d9534f;
+}
+#study_cafe_main .main_title-study {
     color: rebeccapurple;
     border-bottom: 5px solid rebeccapurple;
     /*border-top: 5px solid rebeccapurple;*/
 }
-
-.main_title-baby {
+#study_cafe_main h5{
+    color: rebeccapurple;
+}
+#babysitter_main .main_title-baby {
     color: forestgreen;
     border-bottom: 5px solid forestgreen;
     /*border-top: 5px solid forestgreen;*/
+}
+#babysitter_main h5{
+    color: forestgreen;
+    margin-bottom: 60px;
 }
 
 .main_title-face {
     color: #1D62F0;
     border-bottom: 5px solid #1D62F0;
     /*border-top: 5px solid #1D62F0;*/
+}
+#fakebook_main h5{
+    color: #1D62F0;
 }
 
 .main_ul {
@@ -627,7 +666,7 @@ h5 {
 }
 
 .div_icon {
-    padding-top: 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -635,11 +674,11 @@ h5 {
 }
 
 .div_icon img {
-    width: 14%;
+    width: 15%;
     height: 15%;
 }
 
-
+h5.
 /* START preload */
 .no-js #loader {
     display: none;
@@ -756,14 +795,26 @@ h5 {
 /*font-size: 100px;*/
 /*z-index: -10;*/
 /*}*/
-
+.mobile_title{
+    display: none;
+}
+.desktop_title{
+    font-weight: 700;
+    font-size: 6em;
+    justify-content: center;
+    width: fit-content;
+    display: flex;
+}
 @media (max-width: 768px) {
+
     .blurred-container .motto {
         font-size: 60px;
         width: 268px;
         top: 130px;
     }
-
+    .btn-info.btn-fill {
+        margin: 1em 0;
+    }
     .img-babysitter#img-babysitter2 {
         display: none;
     }
@@ -783,30 +834,43 @@ h5 {
         padding-top: 0px !important;
     }
 
-    .main_title-pepsi, .main_title-aivo, .main_title-study, .main_title-baby, .main_title-face, .main_title-be, .main_title-artha {
-        font-weight: 700;
+
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .mobile_title{
+        display: block;
+    }
+    .desktop_title{
+        display: none;
         font-size: 4em;
-        justify-content: center;
-        width: inherit;
-        display: flex;
+    }
+    .main_title-pepsi, .main_title-aivo, .main_title-study, .main_title-baby, .main_title-face, .main_title-be, .main_title-artha {
+        font-size: 5em;
     }
 }
+
+@media (max-width: 1024px) {
+
+}
+
+
+
+
+
+
+/* bootstrap */
 @media (min-width: 992px) {
     .col-md-offset-0 {
         margin-left: 0;
         margin-right: 50px;
     }
 }
-
-@media (min-width: 768px) and (max-width: 1200px) {
-    .main_title-pepsi, .main_title-aivo, .main_title-study, .main_title-baby, .main_title-face, .main_title-be, .main_title-artha {
-        font-size: 5em;
-    }
-}
-
-
-
-
 
 
 
