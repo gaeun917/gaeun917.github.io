@@ -523,6 +523,9 @@ span.padding_bottom{
     margin-right: 2em;
 }
 
+#openasset_main{
+    background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
 #be_main {
     background: linear-gradient(90deg, #faf0cd, #fab397);
 }
@@ -562,6 +565,7 @@ span.padding_bottom{
 }
 
 .main_title-pepsi,
+.main_title-open,
 .main_title-aivo,
 .main_title-study,
 .main_title-baby,
@@ -576,6 +580,7 @@ h5 {
     text-align: center;
 }
 .main_title-artha,
+.main_title-open,
 .main_title-pepsi,
 .main_title-be,
 .main_title-aivo,
@@ -599,7 +604,15 @@ h5{
     border-bottom: 5px solid firebrick;
     /*border-top: 5px solid firebrick;*/
 }
+
 #artha_main h5{
+    color: firebrick;
+}
+.main_title-open{
+    color: firebrick;
+    border-bottom: 5px solid firebrick;
+}
+.subtitle-open{
     color: firebrick;
 }
 
